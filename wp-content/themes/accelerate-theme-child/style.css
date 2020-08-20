@@ -44,8 +44,79 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+ul.homepage-featured-work {
+  display: inline;
+  list-style: none;
+}
+
+li.featured-work-image {
+  display: inline-block;
+}
+
+li.featured-work-image h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.featured-work h5{
+  text-align: center;
+}
+
 /* BODY STYLES */
 #masthead {
   background: none repeat scroll 0 0 #45ac9d;
 
 }
+
+/* Case Studies */
+article.case-study{
+ margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+  float:left;
+  width:314px;
+  margin:0 40px 0 0;
+}
+
+div.case-study-images {
+  float:left;
+  width:600px;
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+  margin-bottom: 50px;
+}
+
+aside.case-study-sidebar h2{
+  margin-bottom: 0;
+}
+
+aside.case-study-sidebar h4 {
+	font-size: 14px;
+  color: #0e0d0f;
+  margin:0;
+  padding:0;
+}
+
+.social-media-navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.social-media-navigation li {
+  border-radius: 50%;
+}
+/*
+ul#menu-social-media-nav.social-media-menu {
+  display: inline-block;
+  list-style: none;
+}
+
+li#menu-social-media-nav.social-media-menu {
+border-radius: 50%
+}
+*/
