@@ -37,7 +37,6 @@ get_header(); ?>
                     </a>
                 </div>
           </article>
-
 			<?php endwhile; // end of the loop. ?>
 
   	</div><!-- .main-content -->
